@@ -1,5 +1,5 @@
 import pytest
-from simplilearn_demo.main import greet
+from main import greet
 
 def test_greet_with_name():
     assert greet("Harish") == "Hello, Harish!"
