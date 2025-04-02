@@ -1,5 +1,5 @@
 import pytest
-from main import greet
+from app import greet
 
 def test_greet_with_name():
     assert greet("Harish") == "Hello, Harish!"
